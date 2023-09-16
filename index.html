@@ -24,70 +24,69 @@
 
       <div class="collapse navbar-collapse" id="navbarScroll">
 
-
-        
-        
-
         <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-
-
-          <!--Boton de crear nuevo post-->
-
-          <!--<div class="navbar-nav me-auto">
-            <button type="button" class="btn btn-success">Create a new post</button>
-          </div>-->
           
 
           <!--Modal-->
 
           <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Create a new post</button>
           
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form>
-          
-          <div class="mb-3">
-            <label for="message-text" class="col-form-label">Caption:</label>
-            <textarea class="form-control" id="message-text"></textarea>
-          </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+
+                <form>
+                  
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Caption:</label>
+                    <textarea class="form-control" id="message-text" placeholder="Add the caption of your post here"></textarea>
+                  </div>
+
 
           <!--Icono camara-->
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-camera" viewBox="0 0 16 16">
-            <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"/>
-            <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
-          </svg>
+          <button type="button" class="btn btn-secondary btn-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-fill" viewBox="0 0 16 16">
+              <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+              <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
+            </svg>
+          </button>
+          
+
 
           <!--Icono ubicación-->
+          <button type="button" class="btn btn-secondary btn-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+            </svg>
+          </button>
+          
 
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-          </svg>
 
-
-        </form>
+                </form>
       </div>
+
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <button type="button" class="btn btn-success">Publish</button>
       </div>
-    </div>
-  </div>
+    </div> 
+  </div> 
 </div>
-
 
           <!--Fin Modal-->
 
 
+    
+
 
           
           <!--Inicio Dropdown-->
-          <div class="btn-group">
+          <div class="btn-group mx-1">
             <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
                 <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
@@ -110,6 +109,239 @@
     </div>
   </nav>
 
+
+  <!--Fotos (JavaScript behavior)-->
+  
+  <!--Botones switch-->
+  <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3" viewBox="0 0 16 16">
+          <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v13a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 14.5v-13zM1.5 1a.5.5 0 0 0-.5.5V5h4V1H1.5zM5 6H1v4h4V6zm1 4h4V6H6v4zm-1 1H1v3.5a.5.5 0 0 0 .5.5H5v-4zm1 0v4h4v-4H6zm5 0v4h3.5a.5.5 0 0 0 .5-.5V11h-4zm0-1h4V6h-4v4zm0-5h4V1.5a.5.5 0 0 0-.5-.5H11v4zm-1 0V1H6v4h4z"/>
+        </svg>
+      </button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list-ul" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+        </svg>
+      </button>
+    </li>
+  </ul>
+  <!--Fin botones switch-->
+
+
+  <!--Contenido botones switch-->
+  <div class="tab-content" id="myTabContent">
+
+
+    <!--Primera tabla-->
+
+    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+      <div class="row mx-2">
+
+        <div class="card-group col-4 g-1">
+            <div class="card">
+                <img src="https://picsum.photos/id/10/200" class="img-fluid" alt="alt" />
+            </div>
+        </div>
+        <div class="card-group col-4 g-1">
+            <div class="card">
+                <img src="https://picsum.photos/id/20/200" class="img-fluid" alt="alt" />
+            </div>
+        </div>
+        <div class="card-group col-4 g-1">
+            <div class="card">
+                <img src="https://picsum.photos/id/30/200" class="img-fluid" alt="alt" />
+            </div>
+        </div>
+        <div class="card-group col-4 g-1">
+          <div class="card">
+              <img src="https://picsum.photos/id/40/200" class="img-fluid" alt="alt" />
+          </div>
+      </div>
+      <div class="card-group col-4 g-1">
+          <div class="card">
+              <img src="https://picsum.photos/id/50/200" class="img-fluid" alt="alt" />
+          </div>
+      </div>
+      <div class="card-group col-4 g-1">
+          <div class="card">
+              <img src="https://picsum.photos/id/60/200" class="img-fluid" alt="alt" />
+          </div>
+      </div>
+      <div class="card-group col-4 g-1">
+        <div class="card">
+            <img src="https://picsum.photos/id/70/200" class="img-fluid" alt="alt" />
+        </div>
+    </div>
+    <div class="card-group col-4 g-1">
+        <div class="card">
+            <img src="https://picsum.photos/id/80/200" class="img-fluid" alt="alt" />
+        </div>
+    </div>
+    <div class="card-group col-4 g-1">
+        <div class="card">
+            <img src="https://picsum.photos/id/90/200" class="img-fluid" alt="alt" />
+        </div>
+    </div>
+  
+      </div>
+
+    </div>
+    <!--Fin primera tabla-->
+
+
+    <!--Segunda tabla-->
+
+    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+      
+      <div class="row justify-content-center mb-4">
+
+        <div class="col-12">
+          <div class="card mb-3">
+              <div class="card-title bg-white">
+                  <h1>Card 1</h1>
+              </div>
+              <div class="card-body justify-content-center bg-white">
+                  <img src="https://picsum.photos/id/10/200" class="card-img-top" alt="alt" />
+              </div>
+              <div class="card-footer bg-white">
+                  <p class="likes"><strong>1962 likes</strong></p>
+                  <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+          </div>
+    
+    
+        </div>
+
+        <div class="col-12">
+            <div class="card mb-3">
+                <div class="card-title bg-white">
+                    <h1>Card 2</h1>
+                </div>
+                <div class="card-body justify-content-center bg-white">
+                    <img src="https://picsum.photos/id/20/200" class="card-img-top" alt="alt" />
+                </div>
+                <div class="card-footer bg-white">
+                    <p class="likes"><strong>1962 likes</strong></p>
+                    <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <div class="card mb-3 bg-white">
+                <div class="card-title">
+                    <h1>Card 3</h1>
+                </div>
+                <div class="card-body justify-content-center bg-white">
+                    <img src="https://picsum.photos/id/30/200" class="card-img-top" alt="alt" />
+                </div>
+                <div class="card-footer bg-white">
+                    <p class="likes"><strong>1962 likes</strong></p>
+                    <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12">
+          <div class="card mb-3">
+              <div class="card-title bg-white">
+                  <h1>Card 4</h1>
+              </div>
+              <div class="card-body justify-content-center bg-white">
+                  <img src="https://picsum.photos/id/40/200" class="card-img-top" alt="alt" />
+              </div>
+              <div class="card-footer bg-white">
+                  <p class="likes"><strong>1962 likes</strong></p>
+                  <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="card mb-3">
+              <div class="card-title bg-white">
+                  <h1>Card 5</h1>
+              </div>
+              <div class="card-body justify-content-center bg-white">
+                  <img src="https://picsum.photos/id/50/200" class="card-img-top" alt="alt" />
+              </div>
+              <div class="card-footer bg-white">
+                  <p class="likes"><strong>1962 likes</strong></p>
+                  <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="card mb-3 bg-white">
+              <div class="card-title">
+                  <h1>Card 6</h1>
+              </div>
+              <div class="card-body justify-content-center bg-white">
+                  <img src="https://picsum.photos/id/60/200" class="card-img-top" alt="alt" />
+              </div>
+              <div class="card-footer bg-white">
+                  <p class="likes"><strong>1962 likes</strong></p>
+                  <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="card mb-3">
+              <div class="card-title bg-white">
+                  <h1>Card 7</h1>
+              </div>
+              <div class="card-body justify-content-center bg-white">
+                  <img src="https://picsum.photos/id/70/200" class="card-img-top" alt="alt" />
+              </div>
+              <div class="card-footer bg-white">
+                  <p class="likes"><strong>1962 likes</strong></p>
+                  <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="card mb-3">
+              <div class="card-title bg-white">
+                  <h1>Card 8</h1>
+              </div>
+              <div class="card-body justify-content-center bg-white">
+                  <img src="https://picsum.photos/id/80/200" class="card-img-top" alt="alt" />
+              </div>
+              <div class="card-footer bg-white">
+                  <p class="likes"><strong>1962 likes</strong></p>
+                  <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="card mb-3 bg-white">
+              <div class="card-title">
+                  <h1>Card 9</h1>
+              </div>
+              <div class="card-body justify-content-center bg-white">
+                  <img src="https://picsum.photos/id/90/200" class="card-img-top" alt="alt" />
+              </div>
+              <div class="card-footer bg-white">
+                  <p class="likes"><strong>1962 likes</strong></p>
+                  <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+          </div>
+        </div>
+
+      </div>
+    <!--Fin Segunda tabla-->
+
+    </div>
+  <!--Fin contenido botones switch-->
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
