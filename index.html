@@ -114,7 +114,7 @@
   
   <!--Botones switch-->
   <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
-    <li class="nav-item" role="presentation">
+    <li class="nav-item link-dark" role="presentation">
       <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3" viewBox="0 0 16 16">
           <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v13a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 14.5v-13zM1.5 1a.5.5 0 0 0-.5.5V5h4V1H1.5zM5 6H1v4h4V6zm1 4h4V6H6v4zm-1 1H1v3.5a.5.5 0 0 0 .5.5H5v-4zm1 0v4h4v-4H6zm5 0v4h3.5a.5.5 0 0 0 .5-.5V11h-4zm0-1h4V6h-4v4zm0-5h4V1.5a.5.5 0 0 0-.5-.5H11v4zm-1 0V1H6v4h4z"/>
@@ -122,7 +122,7 @@
       </button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+      <button class="nav-link link-dark" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list-ul" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
         </svg>
@@ -198,146 +198,109 @@
 
     <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
       
-      <div class="row justify-content-center mb-4">
+      <div class="col-12 justify-content-center mb-4">
 
-        <div class="col-12">
-          <div class="card mb-3">
-              <div class="card-title bg-white">
-                  <h1>Card 1</h1>
-              </div>
-              <div class="card-body justify-content-center bg-white">
-                  <img src="https://picsum.photos/id/10/200" class="card-img-top" alt="alt" />
-              </div>
-              <div class="card-footer bg-white">
-                  <p class="likes"><strong>1962 likes</strong></p>
-                  <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
+        <div class="card" style="width: 30rem;">
+          <div class="card-title bg-white">
+              <h2>Card 1</h2>
           </div>
-    
-    
-        </div>
-
-        <div class="col-12">
-            <div class="card mb-3">
-                <div class="card-title bg-white">
-                    <h1>Card 2</h1>
-                </div>
-                <div class="card-body justify-content-center bg-white">
-                    <img src="https://picsum.photos/id/20/200" class="card-img-top" alt="alt" />
-                </div>
-                <div class="card-footer bg-white">
-                    <p class="likes"><strong>1962 likes</strong></p>
-                    <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-12">
-            <div class="card mb-3 bg-white">
-                <div class="card-title">
-                    <h1>Card 3</h1>
-                </div>
-                <div class="card-body justify-content-center bg-white">
-                    <img src="https://picsum.photos/id/30/200" class="card-img-top" alt="alt" />
-                </div>
-                <div class="card-footer bg-white">
-                    <p class="likes"><strong>1962 likes</strong></p>
-                    <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-12">
-          <div class="card mb-3">
-              <div class="card-title bg-white">
-                  <h1>Card 4</h1>
-              </div>
-              <div class="card-body justify-content-center bg-white">
-                  <img src="https://picsum.photos/id/40/200" class="card-img-top" alt="alt" />
-              </div>
-              <div class="card-footer bg-white">
-                  <p class="likes"><strong>1962 likes</strong></p>
-                  <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
+          <img src="https://picsum.photos/id/10/200" class="card-img-top bg-white" alt="...">
+          <div class="card-body bg-white">
+            <p class="likes"><strong>1962 likes</strong></p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
         </div>
 
-        <div class="col-12">
-          <div class="card mb-3">
-              <div class="card-title bg-white">
-                  <h1>Card 5</h1>
-              </div>
-              <div class="card-body justify-content-center bg-white">
-                  <img src="https://picsum.photos/id/50/200" class="card-img-top" alt="alt" />
-              </div>
-              <div class="card-footer bg-white">
-                  <p class="likes"><strong>1962 likes</strong></p>
-                  <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
+        <div class="card" style="width: 30rem;">
+          <div class="card-title bg-white">
+              <h2>Card 2</h2>
+          </div>
+          <img src="https://picsum.photos/id/20/200" class="card-img-top bg-white" alt="...">
+          <div class="card-body bg-white">
+            <p class="likes"><strong>1962 likes</strong></p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
         </div>
 
-        <div class="col-12">
-          <div class="card mb-3 bg-white">
-              <div class="card-title">
-                  <h1>Card 6</h1>
-              </div>
-              <div class="card-body justify-content-center bg-white">
-                  <img src="https://picsum.photos/id/60/200" class="card-img-top" alt="alt" />
-              </div>
-              <div class="card-footer bg-white">
-                  <p class="likes"><strong>1962 likes</strong></p>
-                  <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
+        <div class="card" style="width: 30rem;">
+          <div class="card-title bg-white">
+              <h2>Card 3</h2>
+          </div>
+          <img src="https://picsum.photos/id/30/200" class="card-img-top bg-white" alt="...">
+          <div class="card-body bg-white">
+            <p class="likes"><strong>1962 likes</strong></p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
         </div>
 
-        <div class="col-12">
-          <div class="card mb-3">
-              <div class="card-title bg-white">
-                  <h1>Card 7</h1>
-              </div>
-              <div class="card-body justify-content-center bg-white">
-                  <img src="https://picsum.photos/id/70/200" class="card-img-top" alt="alt" />
-              </div>
-              <div class="card-footer bg-white">
-                  <p class="likes"><strong>1962 likes</strong></p>
-                  <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
+        <div class="card" style="width: 30rem;">
+          <div class="card-title bg-white">
+              <h2>Card 4</h2>
+          </div>
+          <img src="https://picsum.photos/id/40/200" class="card-img-top bg-white" alt="...">
+          <div class="card-body bg-white">
+            <p class="likes"><strong>1962 likes</strong></p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
         </div>
 
-        <div class="col-12">
-          <div class="card mb-3">
-              <div class="card-title bg-white">
-                  <h1>Card 8</h1>
-              </div>
-              <div class="card-body justify-content-center bg-white">
-                  <img src="https://picsum.photos/id/80/200" class="card-img-top" alt="alt" />
-              </div>
-              <div class="card-footer bg-white">
-                  <p class="likes"><strong>1962 likes</strong></p>
-                  <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
+        <div class="card" style="width: 30rem;">
+          <div class="card-title bg-white">
+              <h2>Card 5</h2>
+          </div>
+          <img src="https://picsum.photos/id/50/200" class="card-img-top bg-white" alt="...">
+          <div class="card-body bg-white">
+            <p class="likes"><strong>1962 likes</strong></p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
         </div>
 
-        <div class="col-12">
-          <div class="card mb-3 bg-white">
-              <div class="card-title">
-                  <h1>Card 9</h1>
-              </div>
-              <div class="card-body justify-content-center bg-white">
-                  <img src="https://picsum.photos/id/90/200" class="card-img-top" alt="alt" />
-              </div>
-              <div class="card-footer bg-white">
-                  <p class="likes"><strong>1962 likes</strong></p>
-                  <p class="card-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
+        <div class="card" style="width: 30rem;">
+          <div class="card-title bg-white">
+              <h2>Card 6</h2>
+          </div>
+          <img src="https://picsum.photos/id/60/200" class="card-img-top bg-white" alt="...">
+          <div class="card-body bg-white">
+            <p class="likes"><strong>1962 likes</strong></p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
         </div>
 
+        <div class="card" style="width: 30rem;">
+          <div class="card-title bg-white">
+              <h2>Card 7</h2>
+          </div>
+          <img src="https://picsum.photos/id/70/200" class="card-img-top bg-white" alt="...">
+          <div class="card-body bg-white">
+            <p class="likes"><strong>1962 likes</strong></p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 30rem;">
+          <div class="card-title bg-white">
+              <h2>Card 8</h2>
+          </div>
+          <img src="https://picsum.photos/id/80/200" class="card-img-top bg-white" alt="...">
+          <div class="card-body bg-white">
+            <p class="likes"><strong>1962 likes</strong></p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 30rem;">
+          <div class="card-title bg-white">
+              <h2>Card 9</h2>
+          </div>
+          <img src="https://picsum.photos/id/90/200" class="card-img-top bg-white" alt="...">
+          <div class="card-body bg-white">
+            <p class="likes"><strong>1962 likes</strong></p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      
       </div>
+
     <!--Fin Segunda tabla-->
 
     </div>
